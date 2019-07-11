@@ -10,7 +10,15 @@
        "solrfacetsearchbackoffice",
        "commerceservicesbackoffice",
        "cmscockpit",
-       "smartedit"
+       "smartedit",
+       "cmsbackoffice",
+       "cmssmartedit",
+       "cmssmarteditwebservices",
+       "cmswebservices",
+       "permissionswebservices",
+       "previewwebservices",
+      "smarteditaddon",
+      "smarteditwebservices"      
    ],
    "storeFrontExtension": "yacceleratorstorefront",
    "storeFrontWebRoot": "/yacceleratorstorefront",
@@ -43,10 +51,6 @@
                 {
                     "name": "backoffice",
                     "contextPath": "/backoffice"
-                },
-                {
-                    "name": "cmscockpit",
-                    "contextPath": "/cmscockpit"
                 },
                 {
                     "name": "smartedit",
