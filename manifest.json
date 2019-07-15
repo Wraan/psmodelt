@@ -10,14 +10,13 @@
        "solrfacetsearchbackoffice",
        "commerceservicesbackoffice",
        "smartedit",
-       "cmsbackoffice",
        "cmssmartedit",
        "cmssmarteditwebservices",
        "cmswebservices",
        "permissionswebservices",
        "previewwebservices",
-      "smarteditaddon",
-      "smarteditwebservices"      
+       "smarteditaddon",
+       "smarteditwebservices"      
    ],
    "storeFrontExtension": "yacceleratorstorefront",
    "storeFrontWebRoot": "/yacceleratorstorefront",
