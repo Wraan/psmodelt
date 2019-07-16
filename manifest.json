@@ -10,6 +10,7 @@
        "solrfacetsearchbackoffice",
        "commerceservicesbackoffice",
        "smartedit",
+       "cmsbackoffice",
        "cmssmartedit",
        "cmssmarteditwebservices",
        "cmswebservices",
@@ -75,7 +76,7 @@
                 },
                 {
                     "name": "yacceleratorstorefront",
-                    "contextPath": "/backoffice"
+                    "contextPath": "/storefront"
                 }
             ]
         },
@@ -120,10 +121,6 @@
                     "name": "mediaweb",
                     "contextPath": "/medias"
                 },
-                {
-                    "name": "yacceleratorstorefront",
-                    "contextPath": "/backoffice"
-                }
             ]
         }
     ]
