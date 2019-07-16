@@ -31,6 +31,13 @@
             "value": "test.property.2.value"
         }
     ],
+     "storefrontAddons": [
+    {
+      "addon": "smarteditaddon",
+      "storefront": "yacceleratorstorefront",
+      "template": "yacceleratorstorefront"
+    }
+  ],
    "project": "ps_cc2v1",
    "recipe": "pipeline_b2c_dockerized",
    "resultingImageVersion": "ps_cc2v1",    
