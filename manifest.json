@@ -27,7 +27,7 @@
                 "location": "/hybris/config/local.properties"
             }
         ],
-},
+    }
    "properties": [
         {
             "key": "test.property.1",
