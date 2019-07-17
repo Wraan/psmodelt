@@ -17,7 +17,8 @@
        "permissionswebservices",
        "previewwebservices",
        "smarteditaddon",
-       "smarteditwebservices"      
+       "smarteditwebservices",
+       "personalizationsmartedit"
    ],
    "storeFrontExtension": "yacceleratorstorefront",
    "storeFrontWebRoot": "/yacceleratorstorefront",
@@ -86,6 +87,19 @@
                 {
                      "name": "previewwebservices",
                      "contextPath": "/previewwebservices"
+                },
+                {
+                     "name": "personalizationsearchsmartedit",
+                     "contextPath": "/personalizationsearchsmartedit"
+                },
+
+                {
+                     "name": "personalizationpromotionssmartedit",
+                     "contextPath": "/personalizationpromotionssmartedit"
+                },
+                {
+                     "name": "personalizationsmartedit",
+                     "contextPath": "/personalizationsmartedit"
                 }
             ]
         },
