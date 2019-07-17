@@ -76,6 +76,10 @@
                      "contextPath": "/permissionswebservices"
                 },
                 {
+                     "name": "oauth2",
+                     "contextPath": "/authorizationserver"
+                },
+                {
                      "name": "previewwebservices",
                      "contextPath": "/previewwebservices"
                 }
