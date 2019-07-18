@@ -80,6 +80,10 @@
                      "contextPath": "/cmswebservices"
                 },
                 {
+                     "name": "personalizationsmartedit",
+                     "contextPath": "/personalizationsmartedit"
+                },
+                {
                      "name": "permissionswebservices",
                      "contextPath": "/permissionswebservices"
                 },
@@ -99,10 +103,6 @@
                 {
                      "name": "personalizationpromotionssmartedit",
                      "contextPath": "/personalizationpromotionssmartedit"
-                },
-                {
-                     "name": "personalizationsmartedit",
-                     "contextPath": "/personalizationsmartedit"
                 }
             ]
         },
