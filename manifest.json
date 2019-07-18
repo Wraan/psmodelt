@@ -1,6 +1,8 @@
 {
    "commerceSuiteVersion": "1811.5",
    "extensions": [
+       "modeltacceleratorservices",
+       "electronicsstore",
        "yacceleratorstorefront",
        "backoffice",
        "platformbackoffice",
@@ -130,6 +132,10 @@
                 {
                     "name": "yacceleratorstorefront",
                     "contextPath": "/storefront"
+                },
+                {
+                    "name": "acceleratorservices",
+                    "contextPath": "/acceleratorservices"
                 }
             ]
         },
