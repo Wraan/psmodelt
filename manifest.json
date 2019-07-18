@@ -10,13 +10,13 @@
        "solrfacetsearchbackoffice",
        "commerceservicesbackoffice",
        "smartedit",
+       "smarteditaddon",
        "cmsbackoffice",
        "cmssmartedit",
        "cmssmarteditwebservices",
        "cmswebservices",
        "permissionswebservices",
        "previewwebservices",
-       "smarteditaddon",
        "smarteditwebservices",
        "personalizationsmartedit"
    ],
@@ -37,6 +37,13 @@
             "persona": "development"
         }
     ],
+   "storefrontAddons": [
+    {
+      "addon": "smarteditaddon",
+      "storefront": "yacceleratorstorefront",
+      "template": "yacceleratorstorefront"
+    },
+  ],
    "project": "ps_cc2v1",
    "recipe": "pipeline_b2c_dockerized",
    "resultingImageVersion": "ps_cc2v1",    
