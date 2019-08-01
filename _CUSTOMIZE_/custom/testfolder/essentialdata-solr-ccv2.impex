@@ -1,0 +1,12 @@
+REMOVE SolrEndpointUrl; solrServerConfig(name)[unique = true]; url[unique = true]          ;
+                      ; Default                              ; http://localhost:8983/solr  ;
+                      ; Default                              ; https://localhost:8983/solr ;
+                      ; Local Standalone                     ; http://localhost:8983/solr  ;
+                      ; Local Standalone                     ; https://localhost:8983/solr ;
+                      ; Local Cloud                          ; localhost:9983              ;
+
+
+INSERT_UPDATE SolrEndpointUrl; solrServerConfig(name)[unique = true]; url[unique = true]                  ; master
+                             ; Default                              ; http://solr-0.solr:8983/solr        ; false
+                             ; Default                              ; http://solr-1.solr:8983/solr        ; false
+                             ; Default                              ; http://solr-master-0.solr:8983/solr ; true
