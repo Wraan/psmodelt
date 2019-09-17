@@ -107,11 +107,6 @@
 				<xs:documentation>If 'true' uses maven and external-dependencies.xml file for fetching required libraries into \lib and \web\webroot\WEB-INF\lib.</xs:documentation>
 			</xs:annotation>
 		</xs:attribute>
-		<xs:attribute name="jaloLogicFree" type="xs:boolean" use="optional" default="false">
-			<xs:annotation>
-				<xs:documentation>If 'true' types introduced by this extension are SLD safe by default and contains no JALO logic.</xs:documentation>
-			</xs:annotation>
-		</xs:attribute>
 	</xs:complexType>
 
 	<xs:complexType name="requires-extensionType">

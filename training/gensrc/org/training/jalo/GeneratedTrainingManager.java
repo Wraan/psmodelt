@@ -1,17 +1,14 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Sep 17, 2019 11:53:49 AM                    ---
+ * --- Generated at Sep 17, 2019 1:07:09 PM                     ---
  * ----------------------------------------------------------------
  */
 package org.training.jalo;
 
-import de.hybris.platform.directpersistence.annotation.SLDSafe;
 import de.hybris.platform.jalo.Item;
 import de.hybris.platform.jalo.Item.AttributeMode;
-import de.hybris.platform.jalo.JaloSession;
 import de.hybris.platform.jalo.extension.Extension;
-import de.hybris.platform.jalo.extension.ExtensionManager;
 import java.util.HashMap;
 import java.util.Map;
 import org.training.constants.TrainingConstants;
@@ -19,9 +16,8 @@ import org.training.constants.TrainingConstants;
 /**
  * Generated class for type <code>TrainingManager</code>.
  */
-@SuppressWarnings({"unused","cast","PMD"})
-@SLDSafe
-public class TrainingManager extends Extension
+@SuppressWarnings({"deprecation","unused","cast","PMD"})
+public abstract class GeneratedTrainingManager extends Extension
 {
 	protected static final Map<String, Map<String, AttributeMode>> DEFAULT_INITIAL_ATTRIBUTES;
 	static
@@ -39,12 +35,6 @@ public class TrainingManager extends Extension
 			ret.putAll(attr);
 		}
 		return ret;
-	}
-	
-	public static final TrainingManager getInstance()
-	{
-		ExtensionManager em = JaloSession.getCurrentSession().getExtensionManager();
-		return (TrainingManager) em.getExtension(TrainingConstants.EXTENSIONNAME);
 	}
 	
 	@Override

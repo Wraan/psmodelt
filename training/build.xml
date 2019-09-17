@@ -27,7 +27,7 @@
           IF YOU WANT TO ADAPT THE BUILD PROCESS, CREATE A FILE
           CALLED buildcallbacks.xml IN YOUR EXTENSION.
           PLEASE ALSO REFER TO THE DOCUMENTATION ON THE HYBRIS HELP SITE
-          (https://help.hybris.com/1811/hcd/8b6ded0d86691014a6fab18e171c1f91.html).
+          (https://help.hybris.com/6.4.0/hcd/8b6ded0d86691014a6fab18e171c1f91.html).
 
 
  *** WARNING *** WARNING *** WARNING *** WARNING *** WARNING *** WARNING *** WARNING ***
@@ -47,6 +47,10 @@
 
 	<target name="deploy" description="deploy complete extension">
 		<deploy />
+	</target>
+
+	<target name="log4j">
+		<log4j />
 	</target>
 
 	<target name="jspcompile" description="do jspcompile even if switched off">
